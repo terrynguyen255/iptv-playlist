@@ -231,7 +231,7 @@ https://e2.endpoint.cdn.sctvonline.vn/hls/thvl1/index.m3u8
 https://e2.endpoint.cdn.sctvonline.vn/hls/thvl2/index.m3u8
 #EXTINF:-1 tvg-id="vinhlong3hd" tvg-name="THVL3 HD" group-title="TỈNH" tvg-logo="https://i.ibb.co/Y8XFm4Z/THVL3-HD-BEARTV.png" catchup-type="append" catchup-days="2" catchup-source="?s=${start}&e=${end}",THVL3 HD
 https://wintv.fun/360/219/index.m3u8
-#EXTINF:-1 tvg-id="vinhlong3hd" tvg-name="THVL3 HD" group-title="TỈNH" tvg-logo="https://i.ibb.co/Y8XFm4Z/THVL3-HD-BEARTV.png" catchup-type="append" catchup-days="2" catchup-source="?s=${start}&e=${end}",THVL4 HD
+#EXTINF:-1 tvg-id="vinhlong4hd" tvg-name="THVL3 HD" group-title="TỈNH" tvg-logo="https://i.ibb.co/Y8XFm4Z/THVL3-HD-BEARTV.png" catchup-type="append" catchup-days="2" catchup-source="?s=${start}&e=${end}",THVL4 HD
 https://wintv.fun/360/220/index.m3u8
 #EXTINF:-1 tvg-id=""group-title="TỈNH" tvg-logo="https://i.ibb.co/Bg3c8KL/TVBVN-BEARTV.png",TVB VIỆT NAM
 https://bcovlive-a.akamaihd.net/07d9c30456d94f3dbbcd39af064fdefa/us-west-2/6314468039001/0914b33308e3498da3b00fe2c050764e/playlist_ssaiM.m3u8
