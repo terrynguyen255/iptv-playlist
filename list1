@@ -229,36 +229,10 @@ https://e2.endpoint.cdn.sctvonline.vn/hls/thvl1/index.m3u8
 #EXTVLCOPT:http-user-agent=ReactNativeVideo/3.4.4 (Linux;Android 9) ExoPlayerLib/2.13.3
 #EXTVLCOPT:http-referer=https://sctvonline.vn/
 https://e2.endpoint.cdn.sctvonline.vn/hls/thvl2/index.m3u8
-#EXTINF:-1 tvg-id="vinhlong3hd" tvg-name="THVL3 HD" group-title="TỈNH" tvg-logo="https://i.ibb.co/Y8XFm4Z/THVL3-HD-BEARTV.png",Vĩnh Long 3 HD
-udp://225.1.1.235:30120
-#EXTINF:-1 tvg-id="THVL4 HD" tvg-name="THVL4 HD" group-title="TỈNH" tvg-logo="https://i.ibb.co/F5VZQ8x/THVL4-HD-BEARTV.png",Vĩnh Long 4 HD
-https://livecdn.fptplay.net/hda3/vinhlong4hd_hls.smil/chunklist_b2500000.m3u8
-#EXTINF:-1 tvg-id="vinhlong3hd" tvg-name="THVL3 HD" group-title="TỈNH" tvg-logo="https://i.ibb.co/Y8XFm4Z/THVL3-HD-BEARTV.png",Vĩnh Long 3 B
-#EXTVLCOPT:http-user-agent=Dalvik/2.1.0
-https://livecdn.fptplay.net/hda2/vinhlong3_vhls.smil/chunklist_b5000000.m3u8
-#EXTINF:-1 tvg-id="THVL4 HD" tvg-name="THVL4 HD" group-title="TỈNH" tvg-logo="https://i.ibb.co/F5VZQ8x/THVL4-HD-BEARTV.png",Vĩnh Long 4 B
-#EXTVLCOPT:http-user-agent=Dalvik/2.1.0
-https://livecdn.fptplay.net/hda2/vinhlong4_vhls.smil/chunklist_b5000000.m3u8
-
-
-
-#EXTINF:-1 tvg-id="vinhlong3hdc" tvg-name="THVL3 HD" group-title="TỈNH" tvg-logo="https://i.ibb.co/Y8XFm4Z/THVL3-HD-BEARTV.png", THVL3 HD C
-#EXTVLCOPT:http-user-agent=VThanhTivi
-https://livecdn.fptplay.net/hda2/vinhlong3_vhls.smil/chunklist_b5000000.m3u8
-#EXTINF:-1 tvg-id="THVL4 HDc" tvg-name="THVL4 HD" group-title="TỈNH" tvg-logo="https://i.ibb.co/F5VZQ8x/THVL4-HD-BEARTV.png",THVL4 HD c
-https://api.vthanhtivi.pw/v1/getlink/mytv_web/429/hd
-
-#EXTINF:-1 group-title="TỈNH" tvg-logo="https://static.wikia.nocookie.net/logos/images/7/71/THVL3_logo_04-02-2024.png/revision/latest?cb=20240207081301&path-prefix=vi"catchup-type="append" catchup-days="2" catchup-source="?s=${start}&e=${end}",THVL3 HD D
+#EXTINF:-1 tvg-id="vinhlong3hd" tvg-name="THVL3 HD" group-title="TỈNH" tvg-logo="https://i.ibb.co/Y8XFm4Z/THVL3-HD-BEARTV.png" catchup-type="append" catchup-days="2" catchup-source="?s=${start}&e=${end}",THVL3 HD
 https://wintv.fun/360/219/index.m3u8
-#EXTINF:-1 group-title="TỈNH" tvg-logo="https://static.wikia.nocookie.net/logos/images/b/b8/THVL4_logo_04-02-2024.png/revision/latest?cb=20240207081802&path-prefix=vi"catchup-type="append" catchup-days="2" catchup-source="?s=${start}&e=${end}",THVL4 HD D
+#EXTINF:-1 tvg-id="vinhlong3hd" tvg-name="THVL3 HD" group-title="TỈNH" tvg-logo="https://i.ibb.co/Y8XFm4Z/THVL3-HD-BEARTV.png" catchup-type="append" catchup-days="2" catchup-source="?s=${start}&e=${end}",THVL4 HD
 https://wintv.fun/360/220/index.m3u8
-
-#EXTINF:-1 tvg-id="vinhlong3hde" group-title="TỈNH" tvg-logo="https://cdn.hqth.me/logo/thumbs/105.png" catchup="append" catchup-days="7" catchup-source="https://api.vthanhtivi.pw/v1/dvr/thvli/thvl3/${start}/${offset}", THVL3 HDE
-#EXTVLCOPT:http-user-agent=VThanhTivi
-https://livecdn.fptplay.net/hda2/vinhlong3_vhls.smil/chunklist_b5000000.m3u8
-#EXTINF:-1 tvg-id="vinhlong4hde" group-title="TỈNH" tvg-logo="https://cdn.hqth.me/logo/thumbs/106.png" catchup="append" catchup-days="7" catchup-source="https://api.vthanhtivi.pw/v1/dvr/thvli/thvl4/${start}/${offset}", THVL4 HDE
-https://api.vthanhtivi.pw/v1/getlink/mytv_web/429/hd
-
 #EXTINF:-1 tvg-id=""group-title="TỈNH" tvg-logo="https://i.ibb.co/Bg3c8KL/TVBVN-BEARTV.png",TVB VIỆT NAM
 https://bcovlive-a.akamaihd.net/07d9c30456d94f3dbbcd39af064fdefa/us-west-2/6314468039001/0914b33308e3498da3b00fe2c050764e/playlist_ssaiM.m3u8
 #EXTINF:-1 tvg-id="HANOITV 1" group-title="TỈNH" tvg-logo="https://i.ibb.co/Y8bq8Fp/HANOI1-TV-BEARTV.png",Hà Nội 1 HD
