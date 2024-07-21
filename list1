@@ -273,9 +273,12 @@ https://ott4.nethubtv.vn/live/quangbinhtv/chunklist_1.m3u8
 http://118.107.85.5:1935/live/smil:PTQ.smil/chunklist_w368064111_b1384000.m3u8
 #EXTINF:-1 tvg-id=" "group-title="TỈNH" tvg-logo="https://i.ibb.co/GsJjkP1/QUANGNAM-BEARTV.png",QRT | TH Quảng Nam
 https://beta.qrt.vn/hls-live/livepkgr/_definst_/liveevent/livestream.m3u8
-#EXTINF:-1 tvg-id="" group-title="TỈNH" tvg-logo="https://i.ibb.co/pXM42MF/drt1-BEARTV.png",Đà Nẵng 1
-http://ott.realplaytv.net:12388/?header=hplus&name=Da_Nang_1&cdn=1
-#EXTINF:-1 tvg-id="" group-title="TỈNH" tvg-logo="https://i.ibb.co/2gfYpRQ/drt2-BEARTV.png",Đà Nẵng 2
+#EXTINF:-1 tvg-id="" group-title="TỈNH" tvg-logo="https://i.ibb.co/pXM42MF/drt1-BEARTV.png" catchup-type="append" catchup-days="2" catchup-source="?s=${start}&e=${end}",Đà Nẵng 1
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Mobile Safari/537.36
+https://live.mediatech.vn/live/285b59a111d76974225a8e3004bfc31a509/chunklist.m3u8
+#EXTINF:-1 tvg-id="" group-title="TỈNH" tvg-logo="https://i.ibb.co/2gfYpRQ/drt2-BEARTV.png" catchup-type="append" catchup-days="2" catchup-source="?s=${start}&e=${end}",Đà Nẵng 2
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Mobile Safari/537.36
+https://live.mediatech.vn/live/2859145290d0d7947ef88b6240123b62474/chunklist.m3u8
 #EXTINF:-1 group-title="TỈNH" tvg-logo="https://i.ibb.co/tY2nv03/BINHTHUAN-BEARTV.png", BTV | TH Bình Thuận
 https://64d0d74b76158.streamlock.net/BTVTV/binhthuantv/chunklist_w1528097794.m3u8
 #EXTINF:-1 group-title="TỈNH" tvg-logo="https://i.ibb.co/0hHxBTQ/BPTV1-BEARTV.png", BPTV1 | TH Bình Phước
